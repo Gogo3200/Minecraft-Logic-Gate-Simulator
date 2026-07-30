@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "This forces minecraft into being a logic gate simulator :)",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}

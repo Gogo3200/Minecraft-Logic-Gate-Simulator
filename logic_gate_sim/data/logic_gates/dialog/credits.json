@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "sprite": "block/bookshelf",
+        "extra": [
+            {
+                "text": " Credits"
+            }
+        ]
+    },
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": {
+            "text": "Credit goes to Circuit Maker 2 on Roblox for inspiration and the logic gate colors. Eh, that's about it currently."
+        }
+    },
+    "action": {
+        "label": {
+            "text": "back"
+        },
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "logic_gates:menu"
+        }
+    }
+}

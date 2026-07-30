@@ -1,0 +1,8 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "block": {
+            "blocks": ["light_blue_wool","lime_wool","blue_wool","red_wool","purple_wool", "magenta_wool","light_gray_wool","gray_wool","gray_carpet","white_carpet","redstone_lamp"]
+        }
+    }
+}

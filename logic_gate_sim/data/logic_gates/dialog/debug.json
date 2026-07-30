@@ -1,0 +1,122 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+                "sprite": "block/repeating_command_block_front",
+                "extra": [
+                    {
+                        "text": " Debug Menu ",
+                        "color": "#b68eeb"
+                    },
+                    {
+                        "sprite": "block/repeating_command_block_front"
+                    }
+                ]
+            },
+    "columns": 1,
+    "inputs": [
+        {
+            "key": "show_wire",
+            "type": "boolean",
+            "label": {
+                "sprite": "block/tripwire_hook",
+                "extra": [
+                    {
+                        "text": " Show wire armor stands"
+                    }
+                ]
+            },
+            "on_true": "1",
+            "on_false": "0"
+        },
+        {
+            "key": "show_input",
+            "type": "boolean",
+            "label": {
+                "sprite": "block/tripwire_hook",
+                "extra": [
+                    {
+                        "text": " Show input armor stands"
+                    }
+                ]
+            },
+            "on_true": "1",
+            "on_false": "0"
+        },
+        {
+            "key": "show_tick_output",
+            "type": "boolean",
+            "label": {
+                "sprite": "block/test_block_log",
+                "extra": [
+                    {
+                        "text": " Show tick output"
+                    }
+                ]
+            },
+            "on_true": "1",
+            "on_false": "0"
+        },
+        {
+            "key": "show_debug_scoreboard",
+            "type": "boolean",
+            "label": {
+                "sprite": "block/chiseled_cinnabar",
+                "extra": [
+                    {
+                        "text": " Show debug scoreboard"
+                    }
+                ]
+            },
+            "on_true": "1",
+            "on_false": "0"
+        }
+    ],
+    "actions": [
+        {
+            "label": "",
+            "width": 5,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:debug"
+            }
+        },
+        {
+            "label": "",
+            "width": 5,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:debug"
+            }
+        },
+        {
+            "label": "",
+            "width": 5,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:debug"
+            }
+        },
+        {
+            "label": "V",
+            "width": 15,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:debug"
+            }
+        },
+        {
+            "label": "Submit",
+            "action": {
+                "type": "minecraft:dynamic/run_command",
+                "template": "function logic_gates:submit_settings {show_wire:$(show_wire),show_input:$(show_input),show_tick_output:$(show_tick_output),show_debug_scoreboard:$(show_debug_scoreboard)}"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "logic_gates:menu"
+        }
+    }
+}

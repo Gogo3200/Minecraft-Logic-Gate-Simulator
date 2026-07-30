@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Logic Gates",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "Uhh, this is still a work in progress... I guess you can have an And gate."
+    },
+    "actions": [
+        {
+            "label": "Get And Gate",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "give @s light_blue_wool[custom_name=And,enchantment_glint_override=true]"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "logic_gates:menu"
+        }
+    }
+}

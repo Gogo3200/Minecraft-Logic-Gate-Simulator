@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "text": "Help",
+        "color": "#7cc4ee"
+    },
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": {
+            "text": "Add to the help page by contributing!",
+            "color": "#38e092" 
+        }
+    },
+    "action": {
+        "label": "back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "logic_gates:menu"
+        }
+    }
+}

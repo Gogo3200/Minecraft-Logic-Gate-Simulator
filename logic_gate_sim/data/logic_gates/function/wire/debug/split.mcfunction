@@ -1,0 +1,2 @@
+execute if score show_wire debug matches 1 run return run function logic_gates:wire/special_functions/split {invis:"false"}
+execute unless score show_wire debug matches 1 run return run function logic_gates:wire/special_functions/split {invis:"true"}

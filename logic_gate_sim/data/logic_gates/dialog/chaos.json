@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "sprite": "block/tnt_side",
+        "extra": [
+            {
+                "text": " Chaos Options ",
+                "color": "red"
+            },
+            {
+                "sprite": "block/tnt_side"
+            }
+        ]
+    },
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": {
+            "text": "Warning!",
+            "color": "#7a0000",
+            "bold": true,
+            "extra": [
+                {
+                    "text": " This may destroy your circuits. Use with caution...",
+                    "color": "red",
+                    "bold": false
+                },
+                {
+                    "text": " Unless you want chaos, then go ahead!",
+                    "color": "green",
+                    "bold": false
+                }
+            ]
+        }
+    },
+    "inputs": [
+    ],
+    "actions": [
+        {
+            "label": "Add chaos options by contributing!",
+            "width": 180,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:chaos"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Nevermind!",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "logic_gates:menu"
+        }
+    }
+}

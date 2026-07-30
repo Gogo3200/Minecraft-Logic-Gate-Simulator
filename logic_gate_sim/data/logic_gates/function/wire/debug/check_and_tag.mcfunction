@@ -1,0 +1,2 @@
+execute if score show_wire debug matches 1 run function logic_gates:wire/check_and_tag {invis:"false"}
+execute unless score show_wire debug matches 1 run function logic_gates:wire/check_and_tag {invis:"true"}

@@ -1,0 +1,249 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "sprite": "block/test_instance_block",
+        "extra": [
+            {
+                "text": " Menu",
+                "color": "gray"
+            }
+        ]
+    },
+    "columns": 4,
+    "actions": [
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": {
+                "sprite": "block/repeating_command_block_front",
+                "extra": [
+                    {
+                        "text": " Debug Menu ",
+                        "color": "#b68eeb"
+                    },
+                    {
+                        "sprite": "block/repeating_command_block_front"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:debug"
+            },
+            "width": 125
+        },
+        {
+            "label": {
+                "sprite": "block/dandelion",
+                "extra": [
+                    {
+                        "text": " Help",
+                        "color": "gold"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:help"
+            },
+            "width": 125
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": {
+                "sprite": "block/tnt_side",
+                "extra": [
+                {
+                    "text": " Chaos Options ",
+                    "color": "red"
+                },
+                {
+                    "sprite": "block/tnt_side"
+                }
+            ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:chaos"
+            },
+            "width": 125
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": {
+                "sprite": "block/sweet_berry_bush_stage2",
+                "extra": [
+                    {
+                        "text": " Contribute!"
+                    }
+                ]
+            },
+            "width": 125,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": {
+                "sprite": "block/bookshelf",
+                "extra": [
+                    {
+                        "text": " Credits"
+                    }
+                ]
+            },
+            "width": 125,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:credits"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+        {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+         {
+            "label": {
+                "sprite": "block/chiseled_cinnabar",
+                "extra": [
+                    {
+                        "text": " Report Bugs!"
+                    }
+                ]
+            },
+            "width": 125,
+            "action": {
+                "type": "minecraft:open_url",
+                "url": "https://github.com"
+            }
+        },
+        {
+            "label": {
+                "sprite": "block/note_block",
+                "extra": [
+                    {
+                        "text": " Notes"
+                    }
+                ]
+            },
+            "width": 125,
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        },
+         {
+            "label": "",
+            "width": 1,
+            "tooltip": "",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Exit"        
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "test",
+    "inputs": [
+        {
+            "type": "minecraft:single_option",
+            "key": "test1",
+            "label": "selecter",
+            "options": [
+                {
+                    "display": "1",
+                    "id": "1"
+                },
+                {
+                    "display": "2",
+                    "id": "2"
+                }
+            ],
+            "label_visible": false
+        }
+    ],
+    "actions": [
+        {
+            "label": "back",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "logic_gates:menu"
+            }
+        }
+    ]
+}

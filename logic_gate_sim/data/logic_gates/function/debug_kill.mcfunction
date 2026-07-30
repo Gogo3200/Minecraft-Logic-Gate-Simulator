@@ -1,0 +1,6 @@
+kill @e[tag=runner]
+kill @e[tag=split]
+kill @e[tag=gate]
+kill @e[tag=tracer]
+kill @e[tag=end]
+kill @e[tag=inputrunner]

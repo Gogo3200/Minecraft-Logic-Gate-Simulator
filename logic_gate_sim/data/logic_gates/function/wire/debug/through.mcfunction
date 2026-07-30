@@ -1,0 +1,2 @@
+execute if score show_wire debug matches 1 run function logic_gates:wire/special_functions/through {invis:"false"}
+execute unless score show_wire debug matches 1 run function logic_gates:wire/special_functions/through {invis:"true"}
