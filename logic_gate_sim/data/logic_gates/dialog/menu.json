@@ -166,8 +166,8 @@
             },
             "width": 125,
             "action": {
-                "type": "show_dialog",
-                "dialog": "logic_gates:menu"
+                "type": "minecraft:open_url",
+                "url": "https://github.com/Gogo3200/Minecraft-Logic-Gate-Simulator"
             }
         },
         {
@@ -215,7 +215,7 @@
             "width": 125,
             "action": {
                 "type": "minecraft:open_url",
-                "url": "https://github.com"
+                "url": "https://github.com/Gogo3200/Minecraft-Logic-Gate-Simulator/issues"
             }
         },
         {
